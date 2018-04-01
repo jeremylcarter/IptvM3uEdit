@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="IptvM3uEdit.WinUI.exe" version="1.0.0.0" publicKeyToken="06be4bf8848e425f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="IptvM3uEdit.WinUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="IptvM3uEdit.WinUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d’utilisateur (UAC)
+          Si vous voulez changer le niveau de contrôle de compte d’utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l’un des nœuds suivants.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous voulez utiliser la virtualisation de fichiers système et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IptvM3uEdit.Logic.dll" size="8704">
+      <assemblyIdentity name="IptvM3uEdit.Logic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>L/XDRZchkk7VJudUOdnadeLBgoPl39t+TrUDrcsyNvU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IptvM3uEdit.WinUI.exe" size="15344">
+      <assemblyIdentity name="IptvM3uEdit.WinUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>93UImSmyRGnRy4MvqD86h7q7qB0BQX9dnowh4OKOFMQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="IptvM3uEdit.WinUI.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=pc-bureau\guillaume" issuerKeyHash="21ed01d96fc9f019725162714c8f67363505bb78" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Esyr8bz8KIVYtrtIc/5BWxJE0aHLL8GccneP3ufSPnU=</DigestValue></Reference></SignedInfo><SignatureValue>WQWhHLZFWBKRKrQGlULbLI2ZU37P0+5VXI3kOi55HnFZAEOHQI28F1QsIGnpkEZ1IEmiKREwvqaIHQs8jda3MW0F/FI8ZlwIIeEeYWXzno/9FUd6QldJqOzrIoxjbO9rRtvgt4HRFI4UOlyx1oaDTMMFlP/C9uK/fG7FvSX+NA4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>jw4nMSyZB1be518KAiV3RGds2+RHUHskgH42E4v1GYxsy1xmAxpNYLGuYOZ/pcKG7cMiiOss0H6g455W1wqcom1RV8HdkiuR65KaPiDTJ3iuAYgvi2BUpqk2vXIkG+dVShjyzRaIJlGyHXIidfFmhugGZXtfYuQFyBm8v0lHY5M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="753ed2e7de8f77729cc12fcba1d144125b41fe7348bbb6588528fcbcf1abcc12" Description="" Url=""><as:assemblyIdentity name="IptvM3uEdit.WinUI.exe" version="1.0.0.0" publicKeyToken="06be4bf8848e425f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=pc-bureau\guillaume</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MqrRFD5BsQ3kCuxZd6YA7ak1QPgPBRSThgUi2CrsXbg=</DigestValue></Reference></SignedInfo><SignatureValue>fNNJW/1Hf+7ogBTasXurq8Fs14JD0CU2rkW7GXbCuzicoEjXWkSpcrfGnoDOiba3lPuScpJCQ4YPrkPHdSxvQofnht8Y8GabAnsJMlhBRvCjc0ez7aOgXxShIa1LPaEddb3W6GvBqUYQBAz/59KVG9O225ulRDZ4P+CNnmeCTug=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>jw4nMSyZB1be518KAiV3RGds2+RHUHskgH42E4v1GYxsy1xmAxpNYLGuYOZ/pcKG7cMiiOss0H6g455W1wqcom1RV8HdkiuR65KaPiDTJ3iuAYgvi2BUpqk2vXIkG+dVShjyzRaIJlGyHXIidfFmhugGZXtfYuQFyBm8v0lHY5M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQaE46/yPVuIpFJBhDabtz2zANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAcABjAC0AYgB1AHIAZQBhAHUAXABnAHUAaQBsAGwAYQB1AG0AZTAeFw0xODA0MDEwMjI4MjNaFw0xOTA0MDEwODI4MjNaMDExLzAtBgNVBAMeJgBwAGMALQBiAHUAcgBlAGEAdQBcAGcAdQBpAGwAbABhAHUAbQBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCPDicxLJkHVt7nXwoCJXdEZ2zb5EdQeySAfjYTi/UZjGzLXGYDGk1gsa5g5n+lwobtwyKI6yzQfqDjnlbXCpyibVFXwd2SK5Hrkpo+INMneK4BiC+LYFSmqTa9ciQb51VKGPLNFogmUbIdciJ18WaG6AZle19i5AXIGby/SUdjkwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIbQMiL9fR9smEu6o3UB3tjhF62rmp9RFtF0MH0Y3Pbd/giKekEF76y/OHYHRAl0ByP+vtnmW1U9A9g32DzSHjllVwecWz559Y472SKCDIr0e/f8yrX6EINdRjP/T0iRxeBqPXndOv+KGnh9auzF8FthxTL7sE/0GY1GFp9zgzEc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
